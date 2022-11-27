@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* Recordatorios
+1. Usé h5 en los botones Contact / More que son iguales
+
+*/
+
+/* Botones */
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #8B48BF;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #8B48BF;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+}
+
+a:hover {
+    background-color: rgba(139, 72, 191, 0.7);
+    
+    
+    
+}
+
+
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    
+
+}
+
+li>a {
+    background-color: white;
+    color: #242E52;
+    padding: 0px;
+    font-size: 1rem;
+
+}
+
+li>a:hover {
+    color: rgba(36, 46, 82, 0.6);
+    background-color: white;
+}
+
+nav>ul {
+    display: flex;
+    
+    gap: 2rem;
+}
+
+nav>img{
+    display: none;
+}
+
+/* Sección chamo Paddle */
+
+.paddlechamo {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+   
+}
+
+.contenedor-paddlechamo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;  
+
+}
+
+.contenedor-paddlechamo2 h3, .contenedor-paddlechamo2 h6, .contenedor-paddlechamo2 a {
+    text-align: end;
+}
+
+.contenedor-paddlechamo2 h3 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #232C50;
+    
+}
+
+.contenedor-paddlechamo2 h6 {
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+
+/* Sección What's different between pros? */
+
+#whatsdifferent-mobile {
+    display: none;
+}
+
+.whatsdifferent {
+    display: flex;
+    justify-content: space-around;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    margin: 0.5rem 0rem;
+}
+
+
+.whatsdifferent h4, .whatsdifferent p {
+   
+    width: 50%;
+    padding: 40px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsdifferent h4 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* Sección números */
+
+.seccionnumeros {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    background-color: #FAFAFA;
+    
+}
+
+#seccionnumeros-1-mobile1 {
+    display: none;
+}
+
+#seccionnumeros-1-mobile2 {
+    display: none;
+}
+
+.seccionnumeros-1 {
+    display: flex;
+    
+    justify-content: center;
+    margin: 2rem 12rem;
+    gap: 10rem;
+   
+}
+
+.contenedornumeros {
+    display: flex;
+    
+    
+}
+
+.contenedornumeros>p {
+    padding: 1rem 2rem;
+    font-weight: 700;
+}
+
+.contenedornumeros>h5 {
+    padding: 0.7rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1.5rem;
+    font-weight: 700;
+}
+
+.donec {
+   
+    margin-top: 1rem;
+    margin-left: 6rem;
+    color: rgba(179, 178, 183, 1);
+}
+
+.seccionnumeros-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    align-self: center;
+    margin: 2rem 0rem;
+}
+
+/*Best month*/
+
+.contenedor-best-month {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.contenedor-best-month>p{
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgba(36, 46, 83, 1);
+    margin: 4rem 0rem;
+    
+}
+
+.contenedor-best-month>div {
+    display: flex;
+    justify-content: center;
+    margin: 0% 5%;
+    width: 90%;
+    
+    
+}
+
+.contenedor-best-month h6 {
+    font-weight: 700;
+    color: rgba(63, 72, 104, 1);
+    font-size: 1.2rem;
+}
+
+.bestmonth-interno {
+    text-align: center;
+    padding: 1.5rem;
+    width: 35%;
+    padding-top: 5rem;
+    background-color: #FAFAFA;
+    position: relative;
+}
+
+.bestmonth-interno>h6 {
+    margin-bottom: 2rem;
+}
+
+.bestmonth-interno>p {
+    color: rgba(185, 185, 193, 1);
+    line-height: 2rem;
+    margin-bottom: 4rem;
+}
+
+.bestmonth-interno>img {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    bottom: 85%;
+    right:40%;
+}
+
+/* Sección More */
+.more {
+    margin: 3rem;
+    height: 15rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.more>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+}
+
+
+
+/* Get to know the best */
+
+.knowtobest {
+    background-color: rgba(139, 72, 191, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 15%;
+
+}
+
+.knowtobest>p {
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 1);
+    width: 45%;
+}
+
+.knowtobest>a {
+    color: rgba(139, 72, 191, 1);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    width: 8rem;
+    font-weight: 500;
+}
+
+.knowtobest>a:hover {
+    background-color: rgb(211, 211, 246);
+    
+}
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E26;
+    color: white;
+
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 10rem 0rem;
+    
+
+}
+footer>p {
+    align-self: flex-end;
+    color: #8C8C94;
+    padding: 2rem 11rem;
+    
+}
+
+.contenedor1-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+    height: 10rem;
+}
+
+.contenedor1-footer>img {
+    width: 100px;
+    height: 30px;
+    
+}
+
+.contenedor1-footer>div {
+    display: flex;
+    gap: 1rem;
+}
+
+.contenedor2-footer {
+    display: flex;
+    justify-content: space-between;
+
+    width: 30%;
+    height: 10rem;
+    line-height: 45px;
+}
+
+.contenedor2-footer a {
+    background-color: #1E1E26;
+    color: white;
+}
+
+.contenedor2-footer a:hover {
+    background-color: #1E1E26;
+    color: lightblue;
+}
+
+.contenedor3-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+    height: 11rem;
+    
+}
+
+form {
+    height: 100%;
+    
+}
+
+form input {
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin: 10px;
+}
+
+form button {
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    width: 4rem;
+}
+
+
+
+/* *********************MOBILE************************** */
+@media (max-width: 460px){
+
+    /*Header mobile*/
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 50px;
+        
+        
+        
+    }
+
+    nav>ul {
+        display: none;
+    }
+    
+    header a {
+        display: none;
+        
+    }
+ 
+
+    nav>img {
+        display: block;
+        width: 47px;
+        height: 42px;
+        
+    }
+
+    /* Paddle chamo mobile */
+    .paddlechamo {
+        flex-direction: column;
+        padding: 40px;
+        margin: 0px;
+        align-items: flex-end;
+        gap: 100px;
+        
+
+    }
+
+    .paddlechamo img {
+        width: 360px;
+        
+        
+
+    }
+
+    .contenedor-paddlechamo2 {
+        padding: 0px;
+        
+    }
+
+    .contenedor-paddlechamo2 h6 {
+        font-weight: 500;
+        font-size: 1rem;
+    
+    }
+
+    .contenedor-paddlechamo2 h3 {
+        
+        font-size: 45px;
+    
+    }
+
+    /* What's different between pros? */
+
+    .whatsdifferent {
+        flex-direction: column;
+        background-color: #3CDDF3;
+        color: #FFFFFF;
+        margin: 40px 0px;
+    }
+
+    #whatsdifferent-desktop {
+        display: none;
+    }
+
+    #whatsdifferent-mobile {
+        display: block;
+    }
+    
+    .whatsdifferent h4, .whatsdifferent p {
+   
+        
+        padding: 40px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        width: 95%;
+    }
+
+    .whatsdifferent p {
+        font-size: 16px;
+    }
+
+    /* Sección de números*/
+
+    #seccionnumeros-1-mobile1 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+
+        
+    }
+    
+    #seccionnumeros-1-mobile2 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+
+    }
+
+    .seccionnumeros-2 {
+        margin: 0px;
+        background-color: white;
+        width: 100%;
+    }
+
+
+    #seccionnumeros-1-desktop {
+        display: none;
+    }
+
+    .contenedornumeros {
+        margin: 20px 0px 20px 40px;
+        background-color: rgba(139, 72, 191, 0.3);
+        
+    }
+
+    .contenedornumeros>h5 {
+        position: relative;
+        right: 20px;
+    }
+
+    .contenedornumeros>p {
+        padding-left: 0.5rem;
+    }
+
+    
+    
+    .donec {
+        line-height: 30px;
+        margin-left: 30px;
+        padding-right: 20px;
+    }
+
+    /* Best month */
+
+    
+    .contenedor-best-month>p {
+        padding-left: 0px;
+        font-size: 2.2rem;
+        align-self: center;
+    }
+
+    #sanyo-desktop, #navarro-desktop {
+        display: none;
+    }
+
+    .bestmonth-interno {
+        width: 100%;    
+    }
+
+    /* More */
+
+    .more {
+        height: 5rem;
+        align-items: center;
+        
+    }
+
+    /* Get to know the best ... */
+
+    .knowtobest {
+        background-color: rgba(60, 221, 243, 1);
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 80px;
+        
+    }
+
+    .knowtobest>p {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .knowtobest>h6 {
+        color: #FFFFFF;
+        background-color: #232C50;
+        font-weight: 500;
+    }
+
+    /* Footer Mobile */
+
+    .footer-2 {
+        padding: 2rem 1rem 0rem;
+        flex-direction: column;
+    }
+
+    footer>p {
+        align-self: center;
+        color: #8C8C94;
+        padding: 2rem 2rem;
+        font-size: 12px;
+    }
+
+    .contenedor3-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        order: -3;
+        height: auto;
+        
+    }
+
+    .contenedor2-footer {
+        order: -2;
+        width: 100%;
+        height: auto;
+        line-height: 45px;
+        justify-content: space-around;
+        margin: 20px 0px;
+    }
+
+    .contenedor1-footer {
+        gap: 35px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor1-footer>div {
+        display: flex;
+        justify-content: space-around;
+        gap: 60px;
+    }
+    
+    form {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+
+    form input {
+        width: 70%;
+    }
+    
+}
